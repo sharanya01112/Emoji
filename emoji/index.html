@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mood Quote & Music</title>
+  <link rel="stylesheet" href="emoji.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>What's Your Mood?</h1>
+    <div class="mood-buttons">
+      <button onclick="setMood('happy')">😊 Happy</button>
+      <button onclick="setMood('sad')">😔 Sad</button>
+      <button onclick="setMood('calm')">😌 Calm</button>
+      <button onclick="setMood('angry')">😤 Angry</button>
+      <button onclick="setMood('love')">😍 In Love</button>
+    </div>
+
+    <div class="quote-box">
+      <p id="quote">Select your mood to get a quote 🎯</p>
+    </div>
+
+    <div class="music-player" id="musicPlayer">
+    </div>
+  </div>
+
+  <script src="emoji.js"></script>
+</body>
+</html>

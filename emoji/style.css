@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #f0f8ff, #e6e6fa);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  padding: 20px;
+  background: #ffffffcc;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.mood-buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffd6e8;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mood-buttons button:hover {
+  background-color: #ffb3d1;
+}
+
+.quote-box {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+}
+
+.music-player {
+  margin-top: 20px;
+}
